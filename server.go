@@ -30,7 +30,7 @@ type jsonResult struct {
 
 func (s *server) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	// Open up our database connection.
-	db, err := sql.Open("mysql", "root:papa002!@tcp(127.0.0.1:3306)/jeopardy")
+	db, err := sql.Open("mysql", "root:AAAAAAAAAAAAAAA@tcp(127.0.0.1:3306)/jeopardy")
 
 	// if there is an error opening the connection, handle it
 	if err != nil {
